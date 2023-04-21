@@ -26,5 +26,4 @@ def powerOfTwoEfficient(n):
 countBitsIn255()
 n = 15
 print(powerOfTwo(n))
-print(powerOfTwoEfficient(n
-                          ))
+print(powerOfTwoEfficient(n))
