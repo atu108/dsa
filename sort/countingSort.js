@@ -8,7 +8,7 @@ function countingSort(arr, range) {
     Count occurences  of the every number
   */
   for (let i = 0; i < arr.length; i++) {
-    counts[arr[i]] += 1;
+    counts[arr[i].charCodeAt(0)] += 1;
   }
 
   /*
