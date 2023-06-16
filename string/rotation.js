@@ -24,7 +24,8 @@ console.time("eff");
 console.log(rotationEff(str1, str2));
 console.timeEnd("eff");
 
-// const arr = new Array(10000000).fill(Math.random() * 10);
+const arr = new Array(1000000).fill(1);
+console.log(arr);
 // console.time("String");
 // String(arr);
 // console.timeEnd("String");
