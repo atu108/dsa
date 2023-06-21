@@ -1,2 +1,2 @@
 def getFactorial(n, k):
-    if
+    return
