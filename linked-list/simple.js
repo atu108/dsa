@@ -88,7 +88,6 @@ export default class LinkList {
 }
 
 function middleOfLL(head) {
-  if (!head) return null;
   let slow = head;
   let fast = head;
   while (fast != null && fast.next != null) {
