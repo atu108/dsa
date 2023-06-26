@@ -1,4 +1,4 @@
-class Stack {
+module.exports = class Stack {
   #stack;
   constructor() {
     this.#stack = [];
@@ -19,14 +19,14 @@ class Stack {
   isEmpty() {
     return !this.#stack.length;
   }
-}
+};
 
-const stack = new Stack();
-stack.push(10);
-console.log(stack.peek());
-stack.push(20);
-console.log(stack.size());
-stack.pop();
-stack.pop();
-stack.pop();
-console.log(stack.isEmpty());
+// const stack = new Stack();
+// stack.push(10);
+// console.log(stack.peek());
+// stack.push(20);
+// console.log(stack.size());
+// stack.pop();
+// stack.pop();
+// stack.pop();
+// console.log(stack.isEmpty());
