@@ -28,11 +28,13 @@ module.exports = class Queue {
     if (!this.head) {
       return;
     }
+    let ele = this.head.data;
     this.head = this.head.next;
     if (!this.head) {
       this.tail = null;
     }
     this.size--;
+    return ele;
   }
 
   getSize() {
