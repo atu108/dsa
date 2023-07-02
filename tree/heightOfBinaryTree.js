@@ -4,4 +4,5 @@ function height(root) {
 }
 
 const root = require("./tree");
+
 console.log(height(root));

@@ -6,13 +6,13 @@ class Tree {
   }
 }
 
-const root = new Tree(10);
+const root = new Tree(50);
 const node1 = new Tree(20);
 const node2 = new Tree(30);
-const node3 = new Tree(40);
-const node4 = new Tree(50);
-const node5 = new Tree(60);
-const node6 = new Tree(70);
+const node3 = new Tree(5);
+const node4 = new Tree(15);
+const node5 = new Tree(30);
+const node6 = new Tree(30);
 
 node1.left = node3;
 node1.right = node4;

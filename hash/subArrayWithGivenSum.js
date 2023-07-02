@@ -11,4 +11,4 @@ function subArrayWithGivenSum(arr, sum) {
 }
 
 let arr = [7, 0, -3, -2, 1];
-console.log(subArrayWithGivenSum(arr, 1));
+console.log(subArrayWithGivenSum(arr, 4));
