@@ -6,7 +6,7 @@ class Node {
   }
 }
 
-class DoublyLinkedList {
+module.exports = class DoublyLinkedList {
   constructor() {
     this.head = null;
     this.tail = null;
@@ -44,13 +44,13 @@ class DoublyLinkedList {
 
     return prev.prev;
   }
-}
-let linkList = new DoublyLinkedList();
-linkList.add(10);
-linkList.add(12);
-linkList.add(15);
-console.log(linkList.head);
+};
+// let linkList = new DoublyLinkedList();
+// linkList.add(10);
+// linkList.add(12);
+// linkList.add(15);
+// console.log(linkList.head);
 
-console.log(linkList.reverseLinkedList());
-linkList.add(45);
-console.log(linkList.head);
+// console.log(linkList.reverseLinkedList());
+// linkList.add(45);
+// console.log(linkList.head);

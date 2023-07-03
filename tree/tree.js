@@ -24,3 +24,8 @@ root.left = node1;
 root.right = node2;
 
 module.exports = root;
+
+//            10
+//      20          30
+// 40       50            60
+//                     70
