@@ -10,4 +10,4 @@ def maxOnes(arr):
     return max(current_max, max_count)
 
 
-print(maxOnes([1, 1, 1, 1, 1]))
+print(maxOnes([1, 1, 2,  1, 2, 1, 1]))
