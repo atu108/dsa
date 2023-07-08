@@ -16,6 +16,6 @@ function anagramSearch(text, pat) {
 }
 
 const text = "geeksforgeeks";
-const pat = "rogees";
+const pat = "orgees";
 
 console.log(anagramSearch(text, pat));

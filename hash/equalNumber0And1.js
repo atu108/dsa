@@ -24,7 +24,7 @@ function equalNumber0And1(arr) {
     if (sum == 0) {
       maxLength = i + 1;
     }
-    if (map[sum] != undefined) {
+    if (sum in map) {
       maxLength = Math.max(maxLength, i - map[sum]);
     } else {
       map[sum] = i;

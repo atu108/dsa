@@ -30,4 +30,14 @@ function reverseAString(str, start, end) {
   return str;
 }
 
-console.log(reverseWordsEff(str));
+// console.time("normal");
+// console.log(reverseWords(str));
+// console.timeEnd("normal");
+
+// console.time("eff");
+// console.log(reverseWordsEff(str));
+// console.timeEnd("eff");
+
+let str1 = "Atul Singh";
+
+console.log((str1[2] = "K"), str1);

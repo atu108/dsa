@@ -15,5 +15,10 @@ function hoare(arr, low, high) {
   }
 }
 
+//keep moving from left and right towards the center until
+//1 )on left element is smaller than pivot 2) on right greater than pivot
+// If any voilates stop. if they have crossed then i will be the middle point of the partision
+// else swap elements at i and continue the process;
+
 const arr = [5, 3, 8, 4, 7, 2, 1, 10];
 console.log(hoare(arr, 0, 7), arr);

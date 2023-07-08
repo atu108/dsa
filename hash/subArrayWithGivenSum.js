@@ -10,5 +10,5 @@ function subArrayWithGivenSum(arr, sum) {
   return false;
 }
 
-let arr = [7, 0, -3, -2, 1];
+let arr = [7, 0, 3, -2, 1, 2];
 console.log(subArrayWithGivenSum(arr, 4));
