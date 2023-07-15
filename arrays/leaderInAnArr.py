@@ -12,4 +12,4 @@ def leaderInArr(arr):
     return leaders
 
 
-print(leaderInArr([100, 90, 80, 60, 40, 5, 50, 40]))
+print(leaderInArr([100, 90, 80, 60, 40, 5, 1000, 40]))

@@ -25,7 +25,7 @@ root.right = node2;
 
 module.exports = root;
 
-//            10
+//            50
 //      20          30
-// 40       50            60
-//                     70
+// 5       15            30
+//                     30

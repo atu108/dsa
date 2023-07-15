@@ -1,4 +1,4 @@
-function stockSpan(arr) {
+function prevGreaterElement(arr) {
   console.log(arr);
   const res = [];
   const stack = [];
@@ -18,4 +18,4 @@ function stockSpan(arr) {
   console.log(res);
 }
 
-stockSpan([15, 10, 18, 12, 4, 6, 2, 8]);
+prevGreaterElement([15, 10, 18, 12, 4, 6, 2, 8]);

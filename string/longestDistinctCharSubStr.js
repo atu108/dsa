@@ -45,7 +45,7 @@ function method3(str) {
   return res;
 }
 
-const str = "abcdefgk";
+const str = "abbcccdefgk";
 
 console.log(method1(str));
 console.log(method2(str));
