@@ -13,7 +13,7 @@ let prev = -Infinity;
 function checkBst2(root) {
   if (!root) return true;
   if (!checkBst2(root.left)) return false;
-  if (root.data <= prev) return false;
+  if (root.data < prev) return false;
   prev = root.data;
   return checkBst2(root.right);
 }
@@ -34,7 +34,7 @@ let root = new Node(50);
 let rootLeft = new Node(40);
 let rootLeftLeft = new Node(30);
 let rootRight = new Node(70);
-let rootRightLeft = new Node(80);
+let rootRightLeft = new Node(10);
 
 root.left = rootLeft;
 root.left.left = rootLeftLeft;
