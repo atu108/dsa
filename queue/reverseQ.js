@@ -14,9 +14,9 @@ function reverseQ(q) {
   q.enqueue(ele);
 }
 
-// reverseQ(q);
-// console.log(q);
+reverseQ(q);
+console.log(q);
 
-console.log(q.dequeue());
-console.log(q.dequeue());
-console.log(q.dequeue());
+// console.log(q.dequeue());
+// console.log(q.dequeue());
+// console.log(q.dequeue());

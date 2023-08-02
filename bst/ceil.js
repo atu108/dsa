@@ -14,22 +14,22 @@ function findCeil(root, val) {
       current = current.left;
     }
   }
-  return res;
+  return res.data;
 }
 
 function findCeilRec(root, val) {
   if (!root) return null;
   if (root.data == val) {
-    return root;
+    return root.data;
   }
   if (root.data < val) {
     return findCeilRec(root.right, val);
   }
   let leftCeil = findCeilRec(root.left, val);
   if (leftCeil && leftCeil.data >= val) {
-    return leftCeil;
+    return leftCeil.data;
   } else {
-    return root;
+    return root.data;
   }
 }
 

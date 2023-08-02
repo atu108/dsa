@@ -8,6 +8,7 @@ function anagramSearch(text, pat) {
   }
 
   for (let i = pat.length; i < text.length; i++) {
+    console.log(textChar.join(""));
     if (textChar.join("") == patChar.join("")) return true;
     textChar[text.charCodeAt(i)]++;
     textChar[text.charCodeAt(i - pat.length)]--;
@@ -16,6 +17,6 @@ function anagramSearch(text, pat) {
 }
 
 const text = "geeksforgeeks";
-const pat = "orgees";
+const pat = "orgee";
 
 console.log(anagramSearch(text, pat));
