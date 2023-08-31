@@ -14,5 +14,3 @@ worker.on("error", (data) => {
 worker.on("exit", (code) => {
   console.warn(" Exited: ", code);
 });
-
-worker.emit("exit", 1);
