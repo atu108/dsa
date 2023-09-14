@@ -23,3 +23,7 @@ child_process.on("message", (message) => {
 });
 
 console.log("After process");
+
+/*
+NODE_OPTIONS=--experimental-vm-modules npx jest
+*/
